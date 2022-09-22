@@ -1,5 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "nestjs-app": "apps/nestjs-app",
+    "nextjs-app": "apps/nextjs-app",
+    "nextjs-app-e2e": "apps/nextjs-app-e2e"
+  }
 }
